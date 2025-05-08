@@ -1,12 +1,12 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import LayoutPage from "./Pages/LayoutPage";
-import Homepage from "./pages/HomePage";
-import MoviesPage from "./pages/MoviesPage";
+import Homepage from "./Pages/HomePage";
+import MoviesPage from "./Pages/MoviesPage";
 import MoviesDetailsPage from "./Pages/MoviesDetailsPage";
 import AddMoviePage from "./Pages/AddMovie";
-import LoginPage from "./pages/LoginPage";
-import RegistrationPage from "./pages/RegistrationPage";
+import LoginPage from "./Pages/LoginPage";
+import RegistrationPage from "./Pages/RegistrationPage";
 import { MovieProvider } from "./Context/MovieContext";
 
 
