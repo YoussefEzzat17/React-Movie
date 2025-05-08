@@ -33,7 +33,7 @@ function Navbar() {
                 Login
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item d-none d-lg-block">
               <span className="text-white">|</span> 
             </li>
             <li className="nav-item">

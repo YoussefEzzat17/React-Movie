@@ -245,19 +245,29 @@
   }
 }
 
-@media (max-width: 992px) {
+/* Large screens (desktops ≥ 1200px) */
+@media (min-width: 1200px) {
   .card {
-    width: calc((100% - 4rem) / 3);
+    width: 22%;
   }
 }
 
-@media (max-width: 768px) {
+/* Medium screens (tablets and small laptops ≥ 992px and < 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
   .card {
-    width: calc((100% - 2rem) / 2);
+    width: 30%;
   }
 }
 
-@media (max-width: 480px) {
+/* Small screens (tablets ≥ 768px and < 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card {
+    width: 45%;
+  }
+}
+
+/* Extra small screens (phones < 768px) */
+@media (max-width: 767px) {
   .card {
     width: 100%;
   }
