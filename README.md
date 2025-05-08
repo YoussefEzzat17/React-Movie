@@ -1,12 +1,37 @@
-This project includes powerful routing, an intuitive add movie feature, a sleek dark theme design, and much more.
+# 🎬 React Movie App
 
-🛠️ Key Features:
+A sleek, modern movie browsing application built with React.js as part of my training at the **Information Technology Institute (ITI)**. This project offers users a dynamic experience to search, explore, and manage a local collection of movies — all wrapped in a professional dark-themed UI.
 
-✅ Add New Movies - Add your favorite films to the collection and store them locally 🔥
-✅ Image Slider - Beautifully display movie posters with a smooth slider 🎥
-✅ Search Functionality - Easily find movies by title with an interactive search bar 🔍
-✅ Context API - Efficiently manage state and share data across components 🧠
-✅ Dark Theme - A modern and sleek UI with a dark theme for the ultimate user experience 🌙
-✅ Routing - Smooth navigation between pages for a seamless experience 🚀
+## 🚀 Features
 
-📌 Tech Stack: React.js, React Router, Context API, Bootstrap, CSS Animations
+- ✅ **Add New Movies** – Add your favorite movies to the app with title, poster, and description
+- 🔍 **Search Functionality** – Instantly filter movies by their name
+- 🎞️ **Image Slider** – Smooth slider to showcase movie posters
+- 🧠 **Context API** – Centralized and efficient state management across components
+- 🌙 **Dark Theme** – A clean and modern user interface for better viewing experience
+- 🔀 **Routing** – Navigate between pages using React Router
+
+## 🛠️ Tech Stack
+
+- React.js
+- React Router
+- Context API
+- Bootstrap
+- CSS Modules
+- Vite
+- Font Awesome
+
+
+## 💻 Installation & Running Locally
+
+To run the app locally on your machine:
+
+```bash
+git clone https://github.com/your-username/react-movie-app.git
+cd react-movie-app
+npm install
+npm run dev
+
+
+📸 Screenshots
+
