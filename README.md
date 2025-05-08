@@ -50,6 +50,6 @@ Will be deployed soon on Netlify or Vercel 🚀
 
 👨‍💻 About Me
 Built with 💙 by Youssef Ezzat
-🔗 LinkedIn
-🔗 GitHub
+🔗 LinkedIn :https://www.linkedin.com/in/youssef-ezzat17/
+🔗 GitHub : https://github.com/YoussefEzzat17
 

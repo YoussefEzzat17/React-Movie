@@ -10,9 +10,11 @@ import RegistrationPage from "./pages/RegistrationPage";
 import { MovieProvider } from "./Context/MovieContext";
 
 
+
+
 const router = createBrowserRouter([
   {path: "/", element: <LayoutPage />, children: [
-      { index: true, element: <Homepage /> }, 
+      { index: true, element:<Homepage/> }, 
       { path: "movies", element: <MoviesPage /> },
       { path: "movies/:id", element: <MoviesDetailsPage /> },
       { path: "add-movie", element: <AddMoviePage /> },
