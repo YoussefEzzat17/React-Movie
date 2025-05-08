@@ -34,4 +34,22 @@ npm run dev
 
 
 📸 Screenshots
+### Home Page  
+![Home](https://github.com/YoussefEzzat17/React-Movie/blob/main/public/Home.png?raw=true)
+
+### Movie Details Page  
+![MovieDetails](https://github.com/YoussefEzzat17/React-Movie/blob/main/public/MovieDetails.png?raw=true)
+
+### AllMovie Page  
+![AllMovie ](https://github.com/YoussefEzzat17/React-Movie/blob/main/public/Movies.png?raw=true)
+
+
+
+
+Will be deployed soon on Netlify or Vercel 🚀
+
+👨‍💻 About Me
+Built with 💙 by Youssef Ezzat
+🔗 LinkedIn
+🔗 GitHub
 
