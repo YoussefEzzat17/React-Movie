@@ -1,12 +1,12 @@
-# React + Vite
+This project includes powerful routing, an intuitive add movie feature, a sleek dark theme design, and much more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Key Features:
 
-Currently, two official plugins are available:
+✅ Add New Movies - Add your favorite films to the collection and store them locally 🔥
+✅ Image Slider - Beautifully display movie posters with a smooth slider 🎥
+✅ Search Functionality - Easily find movies by title with an interactive search bar 🔍
+✅ Context API - Efficiently manage state and share data across components 🧠
+✅ Dark Theme - A modern and sleek UI with a dark theme for the ultimate user experience 🌙
+✅ Routing - Smooth navigation between pages for a seamless experience 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📌 Tech Stack: React.js, React Router, Context API, Bootstrap, CSS Animations
