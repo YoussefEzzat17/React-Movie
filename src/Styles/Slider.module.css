@@ -1,0 +1,95 @@
+.container {
+  margin-top: 1rem;
+  padding: 20px;
+  background-color: var(--background-dark);
+  color: #fff;
+  overflow: hidden;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.sliderWrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.movieCard {
+  flex: 0 0 22%;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.info {
+  padding-top: 8px;
+  text-align: center;
+}
+
+.blurred {
+  filter: blur(3px) brightness(0.7);
+  transform: scale(0.95);
+}
+
+.active {
+  filter: none;
+  transform: scale(1.1);
+  z-index: 2;
+  -webkit-filter: none;
+}
+.divider {
+  margin: 2rem 0;
+  border: none; 
+  height: 2px; 
+  background-color: rgb(255, 255, 255); 
+  opacity: 1; 
+}
+
+@media (max-width: 992px) {
+  .movieCard {
+    flex: 0 0 30%;
+  }
+}
+@media (max-width: 768px) {
+  .movieCard {
+    flex: 0 0 45%;
+  }
+}
+@media (max-width: 480px) {
+  .movieCard {
+    flex: 0 0 90%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

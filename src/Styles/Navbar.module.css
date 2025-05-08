@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2f3542;
+  --accent-color: #ff6b81;
+  --text-color: #ffffff;
+  --background-dark: #121212;
+  --background-light: #1e1e1e;
+  --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  background-color: rgba(30, 30, 30, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  padding: 1rem 0;
+}
+
+.brand {
+  font-size: 2.5rem;
+  color: red !important;
+  text-shadow: 1px 1px 20px rgba(132, 0, 20, 0.5);
+  transition: color 0.3s ease;
+}
+
+.brand:hover {
+  color: #ffffff;
+}
+
+.navLink {
+  font-size: 1.25rem;
+  color: var(--text-color) !important;
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+}
+
+.navLink:hover {
+  color: var(--accent-color) !important;
+  transform: translateY(-2px);
+}
+
+.active {
+  border-bottom: 2px solid var(--accent-color);
+  font-weight: bold;
+}
+
+/* Add margin to prevent navbar overlap */
+.layout {
+  margin-top: 70px; /* Adjust this value based on your navbar height */
+}

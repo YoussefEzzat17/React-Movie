@@ -1,0 +1,112 @@
+.container {
+    background: linear-gradient(to bottom, #121212, #1c1c1c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    min-height: 100vh;
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 40px 35px;
+    max-width: 700px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ff4d4d;
+    letter-spacing: 0.5px;
+  }
+  
+  /* تحسين الحقول مع إضافة الأيقونات */
+  .inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputWithIcon i {
+    position: absolute;
+    left: 12px;
+    color: #aaa;
+  }
+  
+  .inputWithIcon input,
+  .inputWithIcon textarea {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .inputWithIcon input:focus,
+  .inputWithIcon textarea:focus {
+    outline: none;
+    background-color: #444;
+    border: 2px solid #ff4d4d;
+  }
+  
+  .inputWithIcon textarea {
+    resize: none;
+    min-height: 120px;
+  }
+  
+  .button {
+    background-color: #ff2424;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    margin: 20px auto 0;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #f70000;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    transform: translateY(2px);
+  }
+  
+  /* تحسين التنسيق للأيقونات داخل الحقول */
+  .inputWithIcon input::placeholder,
+  .inputWithIcon textarea::placeholder {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

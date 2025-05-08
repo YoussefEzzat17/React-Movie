@@ -1,0 +1,86 @@
+.movieDetails {
+  height: 100vh;  
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 0.7s ease-in-out;
+  padding: 60px 0;
+}
+
+.overlayContent {
+  max-width: 700px;
+  padding-left: 40px;
+  padding-top: 20px;  
+}
+
+.logo {
+  background-color: red;
+  padding: 5px 10px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info {
+  font-size: 18px;
+  color: #ccc;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.overview {
+  color: #ddd;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.playBtn {
+  background-color: red;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.playBtn:hover {
+  background-color: darkred;
+}
+
+.trailerBtn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.trailerBtn:hover {
+  background: white;
+  color: black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

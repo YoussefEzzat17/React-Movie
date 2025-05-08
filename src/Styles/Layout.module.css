@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #ffffff; 
+    --secondary-color: #2f3542; 
+    --accent-color: #ff6b81; 
+    --text-color: #ffffff;
+    --background-dark: #121212;
+    --background-light: #1e1e1e;
+    --card-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+ .layout {
+    background-color: var(--background-dark);
+    color: var(--text-color);
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
