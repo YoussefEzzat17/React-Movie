@@ -2,6 +2,11 @@
 
 A sleek, modern movie browsing application built with React.js as part of my training at the **Information Technology Institute (ITI)**. This project offers users a dynamic experience to search, explore, and manage a local collection of movies — all wrapped in a professional dark-themed UI.
 
+![Project Banner]()
+![Project Banner DarkMode]()
+
+
+
 ## 🚀 Features
 
 - ✅ **Add New Movies** – Add your favorite movies to the app with title, poster, and description
